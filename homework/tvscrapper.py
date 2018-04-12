@@ -27,38 +27,55 @@ def extract_tvseries(dom):
     - Runtime (only a number!)
     """
 
+    # search within the division with all the series
     contents = dom.find_all(class_= "lister-item-content")
     series = []
+
+    # extracts the 5 subcategories from every serie and puts it into a list of series
     for content in contents:
         tvseries = []
 
+        # gets titles of the series
         titles = content.find('h3').find('a').text
+        if not titles:
+            titles = "not provided"
         tvseries.append(titles)
 
-
-        rating = content.find('span', class_='value').text
+        # gets the rating of the series
+        rating = content.find('div', class_='inline-block ratings-imdb-rating').strong.text
+        if not rating:
+            rating = "not provided"
         tvseries.append(rating)
 
+        # gets the genres of the series
+        genres = content.find('span', class_='genre').text.strip()
+        if not genres:
+            genres = "not provided"
+        tvseries.append(genres)
 
+        # gets the actors of the serues
         actors = content.find_all('p')[2].find_all("a")
-        actorlist = []
-        for actor in actors:
-            actorlist.append(actor.text)
-        tvseries.append(', '.join(actorlist))
+        if not actors:
+            actors = "not provided"
+        else:
+            actorlist = []
+            for actor in actors:
+                actorlist.append(actor.text)
+                actors = ', '.join(actorlist)
+        tvseries.append(actors)
 
-        genres = content.find('span', class_='genre')
-        tvseries.append(genres.text.strip())
+        # gets the runtime of every serie
+        runtime = content.find('span', class_='runtime').text
+        if not runtime:
+            runtime = "not provided"
+        else:
+            runtime_series = runtime.split(" ")[0]
+        tvseries.append(runtime_series)
 
-
-        runtime = content.find('span', class_='runtime')
-        tvseries.append(runtime.text)
-
-
+        # appends the list of every serie into a list of series
         series.append(tvseries)
 
-    # NOTE: FOR THIS EXERCISE YOU ARE ALLOWED (BUT NOT REQUIRED) TO IGNORE
-    # UNICODE CHARACTERS AND SIMPLY LEAVE THEM OUT OF THE OUTPUT.
-
+    # returns the list of series
     return series
 
 
@@ -66,11 +83,17 @@ def save_csv(outfile, tvseries):
     """
     Output a CSV file containing highest rated TV-series.
     """
+
+    # write csv file
     writer = csv.writer(outfile)
 
+    # converts csv into format excel
     writer.writerow(["sep=,"])
 
+    # writes the head rows
     writer.writerow(['Title', 'Rating', 'Genre', 'Actors', 'Runtime'])
+
+    # writes the series in rows
     for row in tvseries:
         writer.writerow(row)
 
