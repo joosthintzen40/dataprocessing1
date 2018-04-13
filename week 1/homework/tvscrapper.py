@@ -1,11 +1,14 @@
 #!/usr/bin/env python
 # Name: Joost Hintzen
+# data processing week 1 Homework
+# tvscrapper.py
 # Student number: 10434143
 """
 This script scrapes IMDB and outputs a CSV file with highest rated tv series.
 """
 
 import csv
+import re
 from requests import get
 from requests.exceptions import RequestException
 from contextlib import closing
@@ -31,7 +34,7 @@ def extract_tvseries(dom):
     contents = dom.find_all(class_= "lister-item-content")
     series = []
 
-    # extracts the 5 subcategories from every serie and puts it into a list of series
+    # extracts the 5 subcategories from every serie and puts it into a list
     for content in contents:
         tvseries = []
 
@@ -53,8 +56,8 @@ def extract_tvseries(dom):
             genres = "not provided"
         tvseries.append(genres)
 
-        # gets the actors of the serues
-        actors = content.find_all('p')[2].find_all("a")
+        # gets the actors of the series
+        actors = content.find_all('a', href=re.compile('name'))
         if not actors:
             actors = "not provided"
         else:
@@ -143,5 +146,3 @@ if __name__ == "__main__":
 
     with open(OUTPUT_CSV, 'w', newline='') as output_file:
         save_csv(output_file, tvseries)
-
-    #print(output_file)
