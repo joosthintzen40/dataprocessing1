@@ -1,10 +1,10 @@
+/*
+* Joost Hintzen
+* 10434143
+*
+*/
 function reqListener() {
 
-
-
-
-
-//document.getElementById("rawdata").innerHTML;
   let dataBilt = this.responseText;
   console.log(dataBilt);
   let splitDatas = dataBilt.split('\n');
@@ -17,13 +17,11 @@ function reqListener() {
     var date = new Date(data[0]);
 
     temps.push(temp);
-    dates.push(date);
+    var datum = date.getTime();
+    dates.push(datum);
+
 
   }
-  minTemp = Math.min.apply(Math, temps);
-  maxTemp = Math.max.apply(Math, temps);
-  console.log(temps);
-  console.log(dates);
 
 
   function createTransform(domain, range) {
@@ -101,13 +99,14 @@ function reqListener() {
 
   var confy = [];
   var confx = [];
+  var datamili = [];
   var datasY = createTransform([-100, 350], [950, 50]);
-  var firstDay = dates[0].getTime();
-  var lastDay = dates[splitDatas.length - 1].getTime();
-  var datasX = createTransform([firstDay, lastDay], [50, 1250]);
+  // datamili = dates.getTime();
+  // console.log(datamili);
+  // var firstDay = dates[0].getTime();
+  // var lastDay = dates[splitDatas.length - 1].getTime();
+  var datasX = createTransform([dates[0], dates[splitDatas.length - 1]], [50, 1250]);
 
-  console.log(firstDay);
-  console.log(lastDay);
 
 
   for (var y = 0; y < splitDatas.length; y++) {
@@ -135,5 +134,5 @@ function reqListener() {
 
 var oReq = new XMLHttpRequest();
 oReq.addEventListener("load", reqListener);
-oReq.open("GET", "https://raw.githubusercontent.com/joosthintzen40/dataprocessing1/master/week%202/homework/data.txt")
+oReq.open("GET", "https://raw.githubusercontent.com/joosthintzen40/dataprocessing1/master/week_2/homework/data.txt");
 oReq.send();
