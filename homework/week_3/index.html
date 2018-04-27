@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="d3.js"></script>
+  <style>
+    .bars:hover {
+      fill: orange;
+    }
+    .x-axis path {
+      display: none;
+    }
+
+    div.tooltip {
+      position: absolute;
+      text-align: center;
+      width: 65px;
+      height: 40px;
+      padding: 2px;
+      font: 12px sans-serif;
+      background: lightblue;
+      border: 0;
+      border-radius: 8px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <script type="text/javascript">
+  d3.select("head").append("title").text("bar chart honeyproduction in the US");
+  d3.select("body").append("p")
+    .append("h3")
+    .text("Joost Hintzen");
+  d3.select("body").append("p")
+    .append("h3")
+    .text("10434143");
+  d3.select("body")
+    .append("div")
+    .text("This bar chart shows the total honey production produced in 20 \
+          different states in the USA. All the amounts are taken in the year 2012.")
+    .style( {
+      width: "500px"
+    })
+  var padding = 100;
+  var width = 900;
+  var height= 500;
+  var barWidth = 30;
+  var canvas = d3.select("body").append("svg")
+      .attr("width", width + padding)
+      .attr("height", height + padding)
+
+  var xScale = d3.scale.ordinal()
+    .rangeRoundBands([0, width], 0.1)
+
+  var yScale = d3.scale.linear()
+    .range([height, 0])
+
+  var xAxis = d3.svg.axis()
+    .scale(xScale)
+    .orient("bottom")
+
+  var yAxis = d3.svg.axis()
+    .scale(yScale)
+    .orient("left")
+    .tickFormat(d3.format("d"))
+
+  var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+  d3.json("honeyproduction.json", function(data) {
+
+    xScale.domain(data.data.map(function(d) {return d.state}))
+    yScale.domain([0, d3.max(data.data, function(d) {return d.totalprod/10000})])
+
+    canvas.selectAll(".bars")
+          .data(data.data)
+          .enter()
+          .append("rect")
+          .attr("class", "bars")
+          .attr("width", barWidth)
+          .attr("height", function(d) { return height - yScale(d.totalprod / 10000)})
+          .attr("x", function(d) { return padding + xScale(d.state)})
+          .attr("y", function(d) {return yScale(d.totalprod / 10000)})
+          .attr("fill", "red")
+          .on("mouseover", mouseover)
+          .on("mouseout", mouseout)
+          .on("mousemove", mousemove)
+
+          function mouseover() {
+            div.style("display", "inline");
+          }
+
+          function mousemove(d) {
+
+             div.html("<strong>total production:</strong> <span style='color: red'>" + d.totalprod + "</span>")
+                .style("left", (d3.event.pageX - 30) + "px")
+                .style("top", (d3.event.pageY - 50) + "px")
+                .style("opacity", .9)
+          }
+
+          function mouseout() {
+            div.style("display", "none");
+          }
+
+
+    canvas.append("g")
+       .attr("class", "y-axis")
+       .attr("transform", "translate(" + padding + ",0)")
+       .call(yAxis)
+       .append("text")
+       .attr("x", 2)
+       .attr("dy", "1.2em")
+       .attr("fill", "#000")
+       .attr("font-weight", "bold")
+       .attr("text-anchor", "start")
+       .text("honeyproduction (0000)");
+
+
+    canvas.append("g")
+       .attr("class", "x-axis")
+       .attr("transform", "translate(100," + height + ")")
+       .call(xAxis)
+  })
+
+  </script>
+</body>
+
+</html>
