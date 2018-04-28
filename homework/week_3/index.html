@@ -7,6 +7,7 @@
     .bars:hover {
       fill: orange;
     }
+
     .x-axis path {
       display: none;
     }
@@ -27,7 +28,11 @@
 </head>
 <body>
   <script type="text/javascript">
+
+  // adding head title to html page
   d3.select("head").append("title").text("bar chart honeyproduction in the US");
+
+  // adding name, studentnumber and description of bar chart to body
   d3.select("body").append("p")
     .append("h3")
     .text("Joost Hintzen");
@@ -41,38 +46,49 @@
     .style( {
       width: "500px"
     })
+
+  // vars for making bar chart
   var padding = 100;
   var width = 900;
   var height= 500;
   var barWidth = 30;
+
+  // making the svg
   var canvas = d3.select("body").append("svg")
       .attr("width", width + padding)
       .attr("height", height + padding)
 
+  // x-scale for x-axis
   var xScale = d3.scale.ordinal()
     .rangeRoundBands([0, width], 0.1)
 
+  // y-scale for y-axis
   var yScale = d3.scale.linear()
     .range([height, 0])
 
+  // making the x-axis line
   var xAxis = d3.svg.axis()
     .scale(xScale)
     .orient("bottom")
 
+  // making the y-axis line
   var yAxis = d3.svg.axis()
     .scale(yScale)
     .orient("left")
     .tickFormat(d3.format("d"))
 
+  // makes the tooltip
   var div = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
+  // loads jsonfile with data to make bar chart
   d3.json("honeyproduction.json", function(data) {
 
     xScale.domain(data.data.map(function(d) {return d.state}))
     yScale.domain([0, d3.max(data.data, function(d) {return d.totalprod/10000})])
 
+    // making the bars of the bar chart
     canvas.selectAll(".bars")
           .data(data.data)
           .enter()
@@ -87,6 +103,7 @@
           .on("mouseout", mouseout)
           .on("mousemove", mousemove)
 
+          // mouse functions for tooltip
           function mouseover() {
             div.style("display", "inline");
           }
@@ -103,7 +120,7 @@
             div.style("display", "none");
           }
 
-
+    // draws the y-axis and labels
     canvas.append("g")
        .attr("class", "y-axis")
        .attr("transform", "translate(" + padding + ",0)")
@@ -116,12 +133,18 @@
        .attr("text-anchor", "start")
        .text("honeyproduction (0000)");
 
-
+    // draws the x-axis and labels
     canvas.append("g")
        .attr("class", "x-axis")
        .attr("transform", "translate(100," + height + ")")
        .call(xAxis)
-  })
+       .append("text")
+       .attr("x", 400)
+       .attr("dy", "3em")
+       .attr("font-weight", "bold")
+       .attr("tex-anchor", "middle")
+       .text("States of the USA");
+  });
 
   </script>
 </body>
