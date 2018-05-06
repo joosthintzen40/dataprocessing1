@@ -63,7 +63,7 @@ window.onload = function() {
 
     var body = d3.select("body")
 
-    // 
+    // dropdown menu
     var span = body.append("span")
                    .attr("id", "yInput")
                    .text("Select the age range y-axis: ")
@@ -78,35 +78,40 @@ window.onload = function() {
                     .text(function(d) {return d.text})
     body.append("br");
 
+    // color variable for coloring dots and
     var colorvar = function(d) {return d.country}
         color = d3.scaleOrdinal(d3.schemeCategory10);
 
+    // x scales
     var x = d3.scaleLinear()
               .range([0, w])
               .domain([
-              d3.min([0, d3.min(array, function(d) {return d.fifteen[1][0]})]),
-              d3.max([0, d3.max(array, function(d) {return d.fifteen[1][0]})])
+              d3.min([0, d3.min(array, function(d) {return d.allAge[1][0]})]),
+              d3.max([0, d3.max(array, function(d) {return d.allAge[1][0]})])
               ]);
 
+    // y scales
     var y = d3.scaleLinear()
               .range([h, 0])
               .domain([
-              d3.min([0, d3.min(array, function(d) {return d.fifteen[0][0]})]),
-              d3.max([0, d3.max(array, function(d) {return d.fifteen[0][0]})])
+              d3.min([0, d3.min(array, function(d) {return d.allAge[0][0]})]),
+              d3.max([0, d3.max(array, function(d) {return d.allAge[0][0]})])
               ]);
 
     var xAxis = d3.axisBottom(x)
 
     var yAxis = d3.axisLeft(y)
 
-
+    // making svg
     var svg = body.append("svg")
                 .attr("width", w + margin.left + margin.right)
                 .attr("height", h + margin.top + margin.bottom)
                 .append('g')
                 .attr('transform','translate(' + margin.left + ',' + margin.top + ')')
 
+    // title of scatterplot
     svg.append("text")
+        .attr("id", "title")
         .attr("x", (w / 2))
         .attr("y", 0 - (margin.top / 2))
         .attr("text-anchor", "middle")
@@ -114,6 +119,7 @@ window.onload = function() {
         .style("text-decoration", "underline")
         .text("Full-time Employment vs. Part-time Employment");
 
+    // calling x-axis plus label
     svg.append("g")
         .attr("class", "x-axis")
         .attr("transform", "translate(0 ," + h + ")")
@@ -126,10 +132,10 @@ window.onload = function() {
         .style("text-anchor", "middle")
         .text("Part-Time Employment");
 
+    // calling y-axis plus label
     svg.append("g")
         .attr("class", "y-axis")
         .call(yAxis)
-        // .attr("transform", "translate( 0," + margin.top +")");
     svg.append("text")
         .attr("class", "label")
         .attr("transform", "rotate(-90)")
@@ -139,20 +145,23 @@ window.onload = function() {
         .style("text-anchor", "middle")
         .text("Full-Time Employment");
 
+    // drawing dots
     svg.selectAll("circle")
        .data(array)
        .enter()
       .append("circle")
-       .attr("cx", function(d) {return x(d.fifteen[1][0])})
-       .attr("cy", function(d) {return y(d.fifteen[0][0])})
+       .attr("cx", function(d) {return x(d.allAge[1][0])})
+       .attr("cy", function(d) {return y(d.allAge[0][0])})
        .attr("r", 5)
        .style("fill", function(d) {return color(colorvar(d))})
 
+    // making the legend
     var legend = svg.selectAll(".legend")
                     .data(color.domain())
                     .enter().append("g")
                     .attr("class", "legend")
 
+    // legend colored rectangles
     legend.append("rect")
           .attr("x", w + 20)
           .attr("y", function(d, i) {return i *20 })
@@ -160,6 +169,7 @@ window.onload = function() {
           .attr("height", 10)
           .attr("fill", color)
 
+    // legend text
     legend.append("text")
           .attr("x", w + 40)
           .attr("y", function(d, i) {return i *20})
@@ -167,27 +177,37 @@ window.onload = function() {
           .style("text-anchor", "begin")
           .text(function(d) {return d})
 
+    // change function to update the scatterplot for chosen input
     function change() {
       var value = this.value
-      console.log(value)
+
+      // changing x domain
       x.domain([
         d3.min([0, d3.min(array, function(d) {return d[value][1[0]]})]),
         d3.max([0, d3.max(array, function(d) {return d[value][1][0]})])
       ])
       var xAxis = d3.axisBottom(x)
+
+      // changing x-axis
       d3.select(".x-axis")
         .transition()
         .duration(800)
         .call(xAxis)
+
+      // changing y domain
       y.domain([
         d3.min([0, d3.min(array, function(d) {return d[value][0][0]})]),
         d3.max([0, d3.max(array, function(d) {return d[value][0][0]})])
       ])
       var yAxis = d3.axisLeft(y)
+
+      // changing y-axis
       d3.select(".y-axis")
         .transition()
         .duration(800)
         .call(yAxis)
+
+      // changing dots
       d3.selectAll("circle")
         .transition()
         .duration(800)
@@ -198,5 +218,4 @@ window.onload = function() {
 
   };
 
-  console.log("yes, we can")
 };

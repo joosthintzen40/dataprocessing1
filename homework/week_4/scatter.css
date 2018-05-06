@@ -1,3 +1,12 @@
 body {
   background-color: skyblue;
+  font-family: Avantgarde, sans-serif;
+}
+.label {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#title {
+  font-size: 30px;
 }
