@@ -1,0 +1,1402 @@
+[
+ {
+   "ranking": 1,
+   "countries": "Costa Rica",
+   "regios": "Americas",
+   "life expectancy": 79.076,
+   "wellbeing": 7.3,
+   "inequality": 0.14556769442369108,
+   "ecological footprint": 2.84,
+   "hpi": 44.7140709773574
+ },
+ {
+   "ranking": 2,
+   "countries": "Mexico",
+   "regios": "Americas",
+   "life expectancy": 76.411,
+   "wellbeing": 7.3,
+   "inequality": 0.18769899117079875,
+   "ecological footprint": 2.89,
+   "hpi": 40.69729222257651
+ },
+ {
+   "ranking": 3,
+   "countries": "Colombia",
+   "regios": "Americas",
+   "life expectancy": 73.673,
+   "wellbeing": 6.4,
+   "inequality": 0.23504395279537657,
+   "ecological footprint": 1.87,
+   "hpi": 40.69501102038909
+ },
+ {
+   "ranking": 4,
+   "countries": "Vanuatu",
+   "regios": "Asia Pacific",
+   "life expectancy": 71.341,
+   "wellbeing": 6.47,
+   "inequality": 0.2233318451974657,
+   "ecological footprint": 1.86262,
+   "hpi": 40.57009898803998
+ },
+ {
+   "ranking": 5,
+   "countries": "Vietnam",
+   "regios": "Asia Pacific",
+   "life expectancy": 75.477,
+   "wellbeing": 5.5,
+   "inequality": 0.185920591137127,
+   "ecological footprint": 1.65,
+   "hpi": 40.30758930687456
+ },
+ {
+   "ranking": 6,
+   "countries": "Panama",
+   "regios": "Americas",
+   "life expectancy": 77.215,
+   "wellbeing": 6.9,
+   "inequality": 0.18997897818301895,
+   "ecological footprint": 2.79,
+   "hpi": 39.50257721706073
+ },
+ {
+   "ranking": 7,
+   "countries": "Nicaragua",
+   "regios": "Americas",
+   "life expectancy": 74.322,
+   "wellbeing": 5.4,
+   "inequality": 0.24717420664695966,
+   "ecological footprint": 1.39,
+   "hpi": 38.68825826742374
+ },
+ {
+   "ranking": 8,
+   "countries": "Bangladesh",
+   "regios": "Asia Pacific",
+   "life expectancy": 70.843,
+   "wellbeing": 4.7,
+   "inequality": 0.2736572489916234,
+   "ecological footprint": 0.72,
+   "hpi": 38.3906944120402
+ },
+ {
+   "ranking": 9,
+   "countries": "Thailand",
+   "regios": "Asia Pacific",
+   "life expectancy": 74.087,
+   "wellbeing": 6.3,
+   "inequality": 0.15000272865094133,
+   "ecological footprint": 2.66,
+   "hpi": 37.2901049946857
+ },
+ {
+   "ranking": 10,
+   "countries": "Ecuador",
+   "regios": "Americas",
+   "life expectancy": 75.449,
+   "wellbeing": 6,
+   "inequality": 0.21887883767862826,
+   "ecological footprint": 2.17,
+   "hpi": 37.042715714114095
+ },
+ {
+   "ranking": 11,
+   "countries": "Jamaica",
+   "regios": "Americas",
+   "life expectancy": 75.326,
+   "wellbeing": 5.550000000000001,
+   "inequality": 0.21146532161420667,
+   "ecological footprint": 1.89,
+   "hpi": 36.88843514369528
+ },
+ {
+   "ranking": 12,
+   "countries": "Norway",
+   "regios": "Europe",
+   "life expectancy": 81.281,
+   "wellbeing": 7.7,
+   "inequality": 0.06855375489063066,
+   "ecological footprint": 4.98,
+   "hpi": 36.82705238216737
+ },
+ {
+   "ranking": 13,
+   "countries": "Albania",
+   "regios": "Post-communist",
+   "life expectancy": 77.347,
+   "wellbeing": 5.5,
+   "inequality": 0.16513371734395715,
+   "ecological footprint": 2.21,
+   "hpi": 36.766874439109955
+ },
+ {
+   "ranking": 14,
+   "countries": "Uruguay",
+   "regios": "Americas",
+   "life expectancy": 76.891,
+   "wellbeing": 6.4,
+   "inequality": 0.17669974980691047,
+   "ecological footprint": 2.91,
+   "hpi": 36.13427976743987
+ },
+ {
+   "ranking": 15,
+   "countries": "Spain",
+   "regios": "Europe",
+   "life expectancy": 82.192,
+   "wellbeing": 6.3,
+   "inequality": 0.10149272883462236,
+   "ecological footprint": 3.67,
+   "hpi": 35.95897673862395
+ },
+ {
+   "ranking": 16,
+   "countries": "Indonesia",
+   "regios": "Asia Pacific",
+   "life expectancy": 68.507,
+   "wellbeing": 5.4,
+   "inequality": 0.20682229939190336,
+   "ecological footprint": 1.58,
+   "hpi": 35.71609257877622
+ },
+ {
+   "ranking": 17,
+   "countries": "El Salvador",
+   "regios": "Americas",
+   "life expectancy": 72.481,
+   "wellbeing": 5.9,
+   "inequality": 0.22300252863380746,
+   "ecological footprint": 2.07,
+   "hpi": 35.635177653287265
+ },
+ {
+   "ranking": 18,
+   "countries": "Netherlands",
+   "regios": "Europe",
+   "life expectancy": 81.212,
+   "wellbeing": 7.5,
+   "inequality": 0.0432207012090508,
+   "ecological footprint": 5.28,
+   "hpi": 35.315450932768506
+ },
+ {
+   "ranking": 19,
+   "countries": "Argentina",
+   "regios": "Americas",
+   "life expectancy": 75.927,
+   "wellbeing": 6.5,
+   "inequality": 0.1642383010777108,
+   "ecological footprint": 3.14,
+   "hpi": 35.190243642294554
+ },
+ {
+   "ranking": 20,
+   "countries": "Philippines",
+   "regios": "Asia Pacific",
+   "life expectancy": 67.949,
+   "wellbeing": 5,
+   "inequality": 0.2631155169502518,
+   "ecological footprint": 1.1,
+   "hpi": 34.99109366669882
+ },
+ {
+   "ranking": 21,
+   "countries": "Peru",
+   "regios": "Americas",
+   "life expectancy": 74.089,
+   "wellbeing": 5.8,
+   "inequality": 0.21201869489254208,
+   "ecological footprint": 2.28,
+   "hpi": 34.55546153048449
+ },
+ {
+   "ranking": 22,
+   "countries": "Palestine",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 72.552,
+   "wellbeing": 4.6,
+   "inequality": 0.2375788590637305,
+   "ecological footprint": 1.18965810274744,
+   "hpi": 34.47194096324895
+ },
+ {
+   "ranking": 23,
+   "countries": "Brazil",
+   "regios": "Americas",
+   "life expectancy": 73.907,
+   "wellbeing": 6.9,
+   "inequality": 0.21632152997386372,
+   "ecological footprint": 3.11,
+   "hpi": 34.344975247648655
+ },
+ {
+   "ranking": 24,
+   "countries": "Switzerland",
+   "regios": "Europe",
+   "life expectancy": 82.6,
+   "wellbeing": 7.8,
+   "inequality": 0.05986395257971467,
+   "ecological footprint": 5.79,
+   "hpi": 34.330969622041906
+ },
+ {
+   "ranking": 25,
+   "countries": "Tajikistan",
+   "regios": "Post-communist",
+   "life expectancy": 69.01,
+   "wellbeing": 4.5,
+   "inequality": 0.2589634547460774,
+   "ecological footprint": 0.91,
+   "hpi": 34.2495973970354
+ },
+ {
+   "ranking": 26,
+   "countries": "Guatemala",
+   "regios": "Americas",
+   "life expectancy": 71.355,
+   "wellbeing": 5.9,
+   "inequality": 0.2748123223815735,
+   "ecological footprint": 1.89,
+   "hpi": 34.23635156813152
+ },
+ {
+   "ranking": 27,
+   "countries": "Belize",
+   "regios": "Americas",
+   "life expectancy": 69.795,
+   "wellbeing": 6.142857142857167,
+   "inequality": 0.18012316717867774,
+   "ecological footprint": 2.54818,
+   "hpi": 33.83984315201018
+ },
+ {
+   "ranking": 28,
+   "countries": "Sri Lanka",
+   "regios": "Asia Pacific",
+   "life expectancy": 74.601,
+   "wellbeing": 4.2,
+   "inequality": 0.16940555155864573,
+   "ecological footprint": 1.32,
+   "hpi": 33.791776078166464
+ },
+ {
+   "ranking": 29,
+   "countries": "Venezuela",
+   "regios": "Americas",
+   "life expectancy": 73.885,
+   "wellbeing": 7.1,
+   "inequality": 0.18927995099877382,
+   "ecological footprint": 3.57,
+   "hpi": 33.56995966266243
+ },
+ {
+   "ranking": 30,
+   "countries": "Algeria",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 74.313,
+   "wellbeing": 5.6,
+   "inequality": 0.2448617478895881,
+   "ecological footprint": 2.12,
+   "hpi": 33.300542788615374
+ },
+ {
+   "ranking": 31,
+   "countries": "Kyrgyzstan",
+   "regios": "Post-communist",
+   "life expectancy": 69.73,
+   "wellbeing": 5.2,
+   "inequality": 0.1815324739653325,
+   "ecological footprint": 1.91,
+   "hpi": 33.07797038591029
+ },
+ {
+   "ranking": 32,
+   "countries": "Denmark",
+   "regios": "Europe",
+   "life expectancy": 79.832,
+   "wellbeing": 7.5,
+   "inequality": 0.07106088414225403,
+   "ecological footprint": 5.51,
+   "hpi": 32.672582087699986
+ },
+ {
+   "ranking": 33,
+   "countries": "Morocco",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 73.389,
+   "wellbeing": 5,
+   "inequality": 0.24599902388745915,
+   "ecological footprint": 1.68,
+   "hpi": 32.65875156196943
+ },
+ {
+   "ranking": 34,
+   "countries": "United Kingdom",
+   "regios": "Europe",
+   "life expectancy": 80.392,
+   "wellbeing": 6.9,
+   "inequality": 0.09297391394456911,
+   "ecological footprint": 4.94,
+   "hpi": 31.909286323046118
+ },
+ {
+   "ranking": 35,
+   "countries": "Chile",
+   "regios": "Americas",
+   "life expectancy": 81.05,
+   "wellbeing": 6.6,
+   "inequality": 0.14306822168319042,
+   "ecological footprint": 4.36,
+   "hpi": 31.66552155295386
+ },
+ {
+   "ranking": 36,
+   "countries": "Pakistan",
+   "regios": "Asia Pacific",
+   "life expectancy": 65.704,
+   "wellbeing": 5.1,
+   "inequality": 0.39646025434197574,
+   "ecological footprint": 0.79,
+   "hpi": 31.50010802376814
+ },
+ {
+   "ranking": 37,
+   "countries": "Finland",
+   "regios": "Europe",
+   "life expectancy": 80.421,
+   "wellbeing": 7.4,
+   "inequality": 0.06213503666040744,
+   "ecological footprint": 5.87,
+   "hpi": 31.293363951496872
+ },
+ {
+   "ranking": 38,
+   "countries": "New Zealand",
+   "regios": "Asia Pacific",
+   "life expectancy": 81.417,
+   "wellbeing": 7.2,
+   "inequality": 0.08078593019712431,
+   "ecological footprint": 5.6,
+   "hpi": 31.2583395000787
+ },
+ {
+   "ranking": 39,
+   "countries": "Iceland",
+   "regios": "Europe",
+   "life expectancy": 82.198,
+   "wellbeing": 7.6,
+   "inequality": 0.050863557347742866,
+   "ecological footprint": 6.42554080619605,
+   "hpi": 31.0787247382566
+ },
+ {
+   "ranking": 40,
+   "countries": "Georgia",
+   "regios": "Post-communist",
+   "life expectancy": 74.555,
+   "wellbeing": 4.3,
+   "inequality": 0.19678043498831857,
+   "ecological footprint": 1.58,
+   "hpi": 31.076034130434483
+ },
+ {
+   "ranking": 41,
+   "countries": "Cyprus",
+   "regios": "Europe",
+   "life expectancy": 79.789,
+   "wellbeing": 6.2,
+   "inequality": 0.12087813100365631,
+   "ecological footprint": 4.21,
+   "hpi": 30.711846428980596
+ },
+ {
+   "ranking": 42,
+   "countries": "Nepal",
+   "regios": "Asia Pacific",
+   "life expectancy": 68.824,
+   "wellbeing": 4.2,
+   "inequality": 0.2714452229879465,
+   "ecological footprint": 0.98,
+   "hpi": 30.512781538720787
+ },
+ {
+   "ranking": 43,
+   "countries": "Austria",
+   "regios": "Europe",
+   "life expectancy": 81.004,
+   "wellbeing": 7.4,
+   "inequality": 0.07129350512862645,
+   "ecological footprint": 6.06,
+   "hpi": 30.47822432661251
+ },
+ {
+   "ranking": 44,
+   "countries": "France",
+   "regios": "Europe",
+   "life expectancy": 81.767,
+   "wellbeing": 6.6,
+   "inequality": 0.08524287318595743,
+   "ecological footprint": 5.14,
+   "hpi": 30.413506058643833
+ },
+ {
+   "ranking": 45,
+   "countries": "Dominican Republic",
+   "regios": "Americas",
+   "life expectancy": 73.097,
+   "wellbeing": 4.8,
+   "inequality": 0.296085915823961,
+   "ecological footprint": 1.53,
+   "hpi": 30.307213035861228
+ },
+ {
+   "ranking": 46,
+   "countries": "Malaysia",
+   "regios": "Asia Pacific",
+   "life expectancy": 74.428,
+   "wellbeing": 5.9,
+   "inequality": 0.10184310668022353,
+   "ecological footprint": 3.71,
+   "hpi": 30.291713548418738
+ },
+ {
+   "ranking": 47,
+   "countries": "Croatia",
+   "regios": "Post-communist",
+   "life expectancy": 76.961,
+   "wellbeing": 6,
+   "inequality": 0.11767176605335,
+   "ecological footprint": 3.92,
+   "hpi": 30.164198527193108
+ },
+ {
+   "ranking": 48,
+   "countries": "Ireland",
+   "regios": "Europe",
+   "life expectancy": 80.518,
+   "wellbeing": 7,
+   "inequality": 0.08493929169455543,
+   "ecological footprint": 5.57,
+   "hpi": 30.016529573152507
+ },
+ {
+   "ranking": 49,
+   "countries": "Germany",
+   "regios": "Europe",
+   "life expectancy": 80.573,
+   "wellbeing": 6.7,
+   "inequality": 0.08390288211646281,
+   "ecological footprint": 5.3,
+   "hpi": 29.815503585510626
+ },
+ {
+   "ranking": 50,
+   "countries": "India",
+   "regios": "Asia Pacific",
+   "life expectancy": 67.269,
+   "wellbeing": 4.6,
+   "inequality": 0.31313715346274057,
+   "ecological footprint": 1.16,
+   "hpi": 29.175464503512924
+ },
+ {
+   "ranking": 51,
+   "countries": "Uzbekistan",
+   "regios": "Post-communist",
+   "life expectancy": 68.171,
+   "wellbeing": 6,
+   "inequality": 0.2982016707034703,
+   "ecological footprint": 2.32,
+   "hpi": 29.126307234060015
+ },
+ {
+   "ranking": 52,
+   "countries": "Serbia",
+   "regios": "Post-communist",
+   "life expectancy": 74.495,
+   "wellbeing": 5.2,
+   "inequality": 0.19090621440897418,
+   "ecological footprint": 2.7,
+   "hpi": 29.048312577987993
+ },
+ {
+   "ranking": 53,
+   "countries": "Malta",
+   "regios": "Europe",
+   "life expectancy": 80.223,
+   "wellbeing": 6,
+   "inequality": 0.12631623558708185,
+   "ecological footprint": 4.36495628240579,
+   "hpi": 28.96307142500312
+ },
+ {
+   "ranking": 54,
+   "countries": "Israel",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 81.934,
+   "wellbeing": 7.1,
+   "inequality": 0.07621635530667135,
+   "ecological footprint": 6.22,
+   "hpi": 28.83147555443557
+ },
+ {
+   "ranking": 55,
+   "countries": "Romania",
+   "regios": "Post-communist",
+   "life expectancy": 74.327,
+   "wellbeing": 5.2,
+   "inequality": 0.1943749328445968,
+   "ecological footprint": 2.71,
+   "hpi": 28.801498535335398
+ },
+ {
+   "ranking": 56,
+   "countries": "Bhutan",
+   "regios": "Asia Pacific",
+   "life expectancy": 68.748,
+   "wellbeing": 5.6,
+   "inequality": 0.2655913919503828,
+   "ecological footprint": 2.32167,
+   "hpi": 28.623232694458203
+ },
+ {
+   "ranking": 57,
+   "countries": "Haiti",
+   "regios": "Americas",
+   "life expectancy": 62.077,
+   "wellbeing": 4.4,
+   "inequality": 0.3698606637216564,
+   "ecological footprint": 0.61,
+   "hpi": 28.567184774346202
+ },
+ {
+   "ranking": 58,
+   "countries": "Japan",
+   "regios": "Asia Pacific",
+   "life expectancy": 83.239,
+   "wellbeing": 6,
+   "inequality": 0.09284689200207201,
+   "ecological footprint": 5.02,
+   "hpi": 28.319348084202872
+ },
+ {
+   "ranking": 59,
+   "countries": "Slovakia",
+   "regios": "Post-communist",
+   "life expectancy": 75.872,
+   "wellbeing": 5.9,
+   "inequality": 0.12815477237595277,
+   "ecological footprint": 4.06,
+   "hpi": 28.228896861344644
+ },
+ {
+   "ranking": 60,
+   "countries": "Italy",
+   "regios": "Europe",
+   "life expectancy": 82.696,
+   "wellbeing": 5.8,
+   "inequality": 0.11659878820922885,
+   "ecological footprint": 4.61,
+   "hpi": 28.07652469913837
+ },
+ {
+   "ranking": 61,
+   "countries": "Sweden",
+   "regios": "Europe",
+   "life expectancy": 81.847,
+   "wellbeing": 7.6,
+   "inequality": 0.05670734622290506,
+   "ecological footprint": 7.25,
+   "hpi": 28.034925186771904
+ },
+ {
+   "ranking": 62,
+   "countries": "Poland",
+   "regios": "Post-communist",
+   "life expectancy": 76.926,
+   "wellbeing": 5.9,
+   "inequality": 0.11145472798638208,
+   "ecological footprint": 4.44,
+   "hpi": 27.471189416618913
+ },
+ {
+   "ranking": 63,
+   "countries": "Mauritius",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 73.965,
+   "wellbeing": 5.533333333333317,
+   "inequality": 0.16526192412552088,
+   "ecological footprint": 3.46,
+   "hpi": 27.38404008918045
+ },
+ {
+   "ranking": 64,
+   "countries": "Czech Republic",
+   "regios": "Post-communist",
+   "life expectancy": 78.185,
+   "wellbeing": 6.3,
+   "inequality": 0.09397013489034223,
+   "ecological footprint": 5.19,
+   "hpi": 27.28409908808879
+ },
+ {
+   "ranking": 65,
+   "countries": "Honduras",
+   "regios": "Americas",
+   "life expectancy": 72.755,
+   "wellbeing": 4.6,
+   "inequality": 0.31108129079299357,
+   "ecological footprint": 1.68,
+   "hpi": 27.1587707896045
+ },
+ {
+   "ranking": 66,
+   "countries": "Ethiopia",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 62.816,
+   "wellbeing": 4.6,
+   "inequality": 0.3592820175826885,
+   "ecological footprint": 1.02,
+   "hpi": 26.658749963172124
+ },
+ {
+   "ranking": 67,
+   "countries": "Iraq",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 68.96,
+   "wellbeing": 4.7,
+   "inequality": 0.27011736919577134,
+   "ecological footprint": 1.88,
+   "hpi": 26.521291569690366
+ },
+ {
+   "ranking": 68,
+   "countries": "Turkey",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 74.72,
+   "wellbeing": 5.3,
+   "inequality": 0.1863940646767554,
+   "ecological footprint": 3.33,
+   "hpi": 26.42456507822006
+ },
+ {
+   "ranking": 69,
+   "countries": "Hungary",
+   "regios": "Post-communist",
+   "life expectancy": 74.859,
+   "wellbeing": 4.7,
+   "inequality": 0.15154633173027862,
+   "ecological footprint": 2.92,
+   "hpi": 26.383181515417217
+ },
+ {
+   "ranking": 70,
+   "countries": "Ukraine",
+   "regios": "Post-communist",
+   "life expectancy": 70.317,
+   "wellbeing": 5,
+   "inequality": 0.16726418356261316,
+   "ecological footprint": 2.84,
+   "hpi": 26.38316245478983
+ },
+ {
+   "ranking": 71,
+   "countries": "Tunisia",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 74.644,
+   "wellbeing": 4.5,
+   "inequality": 0.22007923628343012,
+   "ecological footprint": 2.34,
+   "hpi": 26.19714113037088
+ },
+ {
+   "ranking": 72,
+   "countries": "China",
+   "regios": "Asia Pacific",
+   "life expectancy": 75.365,
+   "wellbeing": 5.1,
+   "inequality": 0.17499423783093854,
+   "ecological footprint": 3.38,
+   "hpi": 25.72642015541785
+ },
+ {
+   "ranking": 73,
+   "countries": "Armenia",
+   "regios": "Post-communist",
+   "life expectancy": 74.446,
+   "wellbeing": 4.3,
+   "inequality": 0.21664810329631143,
+   "ecological footprint": 2.23,
+   "hpi": 25.666417288436907
+ },
+ {
+   "ranking": 74,
+   "countries": "Cambodia",
+   "regios": "Asia Pacific",
+   "life expectancy": 67.467,
+   "wellbeing": 3.9,
+   "inequality": 0.27534974234081994,
+   "ecological footprint": 1.21,
+   "hpi": 25.64937316366306
+ },
+ {
+   "ranking": 75,
+   "countries": "Suriname",
+   "regios": "Americas",
+   "life expectancy": 70.788,
+   "wellbeing": 6.3,
+   "inequality": 0.18925773878939384,
+   "ecological footprint": 4.25,
+   "hpi": 25.447157038977338
+ },
+ {
+   "ranking": 76,
+   "countries": "Bosnia and Herzegovina",
+   "regios": "Post-communist",
+   "life expectancy": 76.175,
+   "wellbeing": 4.8,
+   "inequality": 0.1860445575221501,
+   "ecological footprint": 3.12,
+   "hpi": 25.285496892917735
+ },
+ {
+   "ranking": 77,
+   "countries": "Zambia",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 58.409,
+   "wellbeing": 5,
+   "inequality": 0.40812165887395585,
+   "ecological footprint": 0.99,
+   "hpi": 25.22424646411198
+ },
+ {
+   "ranking": 78,
+   "countries": "Montenegro",
+   "regios": "Post-communist",
+   "life expectancy": 75.773,
+   "wellbeing": 5.2,
+   "inequality": 0.15586325413076085,
+   "ecological footprint": 3.78,
+   "hpi": 25.125575355121832
+ },
+ {
+   "ranking": 79,
+   "countries": "Portugal",
+   "regios": "Europe",
+   "life expectancy": 80.33,
+   "wellbeing": 4.99,
+   "inequality": 0.16338622556737722,
+   "ecological footprint": 3.88,
+   "hpi": 24.847393728344652
+ },
+ {
+   "ranking": 80,
+   "countries": "South Korea",
+   "regios": "Asia Pacific",
+   "life expectancy": 81.349,
+   "wellbeing": 6,
+   "inequality": 0.11059418520693048,
+   "ecological footprint": 5.69,
+   "hpi": 24.790360341261334
+ },
+ {
+   "ranking": 81,
+   "countries": "Myanmar",
+   "regios": "Asia Pacific",
+   "life expectancy": 65.501,
+   "wellbeing": 4.4,
+   "inequality": 0.32273773955012874,
+   "ecological footprint": 1.43,
+   "hpi": 24.736100400421353
+ },
+ {
+   "ranking": 82,
+   "countries": "Slovenia",
+   "regios": "Post-communist",
+   "life expectancy": 79.953,
+   "wellbeing": 6.1,
+   "inequality": 0.10222757403120601,
+   "ecological footprint": 5.81,
+   "hpi": 24.638840370736368
+ },
+ {
+   "ranking": 83,
+   "countries": "Kenya",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 60.31,
+   "wellbeing": 4.5,
+   "inequality": 0.378988057509721,
+   "ecological footprint": 1.03,
+   "hpi": 24.216351638353263
+ },
+ {
+   "ranking": 84,
+   "countries": "Iran",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 74.784,
+   "wellbeing": 4.6,
+   "inequality": 0.23090590830397503,
+   "ecological footprint": 2.79,
+   "hpi": 23.992041742901446
+ },
+ {
+   "ranking": 85,
+   "countries": "Canada",
+   "regios": "Americas",
+   "life expectancy": 81.654,
+   "wellbeing": 7.4,
+   "inequality": 0.08828664244333384,
+   "ecological footprint": 8.17,
+   "hpi": 23.94183384203565
+ },
+ {
+   "ranking": 86,
+   "countries": "Egypt",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 70.742,
+   "wellbeing": 4.2,
+   "inequality": 0.23355257167848686,
+   "ecological footprint": 2.15,
+   "hpi": 23.781020583811703
+ },
+ {
+   "ranking": 87,
+   "countries": "Belgium",
+   "regios": "Europe",
+   "life expectancy": 80.429,
+   "wellbeing": 6.9,
+   "inequality": 0.08537280272038357,
+   "ecological footprint": 7.44,
+   "hpi": 23.726523427085876
+ },
+ {
+   "ranking": 88,
+   "countries": "Mozambique",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 54.321,
+   "wellbeing": 5,
+   "inequality": 0.4269865386928798,
+   "ecological footprint": 0.87,
+   "hpi": 23.706340603355304
+ },
+ {
+   "ranking": 89,
+   "countries": "Greece",
+   "regios": "Europe",
+   "life expectancy": 80.505,
+   "wellbeing": 5.1,
+   "inequality": 0.15871124133041045,
+   "ecological footprint": 4.38,
+   "hpi": 23.62099962120931
+ },
+ {
+   "ranking": 90,
+   "countries": "Macedonia",
+   "regios": "Post-communist",
+   "life expectancy": 75.067,
+   "wellbeing": 4.6,
+   "inequality": 0.18086399923196203,
+   "ecological footprint": 3.26,
+   "hpi": 23.39190792649336
+ },
+ {
+   "ranking": 91,
+   "countries": "Paraguay",
+   "regios": "Americas",
+   "life expectancy": 72.638,
+   "wellbeing": 5.8,
+   "inequality": 0.22390818452618033,
+   "ecological footprint": 4.16,
+   "hpi": 23.326222792340484
+ },
+ {
+   "ranking": 92,
+   "countries": "Bolivia",
+   "regios": "Americas",
+   "life expectancy": 67.45,
+   "wellbeing": 6,
+   "inequality": 0.34980513854444406,
+   "ecological footprint": 2.96,
+   "hpi": 23.32149264012432
+ },
+ {
+   "ranking": 93,
+   "countries": "Comoros",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 62.598,
+   "wellbeing": 4,
+   "inequality": 0.3559641151715294,
+   "ecological footprint": 1.03,
+   "hpi": 23.100988814534567
+ },
+ {
+   "ranking": 94,
+   "countries": "Yemen",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 63.34,
+   "wellbeing": 4.1,
+   "inequality": 0.38731270334468704,
+   "ecological footprint": 1.03,
+   "hpi": 22.75426850542089
+ },
+ {
+   "ranking": 95,
+   "countries": "Nigeria",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 52.112,
+   "wellbeing": 5.5,
+   "inequality": 0.4423107369736009,
+   "ecological footprint": 1.16,
+   "hpi": 22.246825835430386
+ },
+ {
+   "ranking": 96,
+   "countries": "Liberia",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 60.229,
+   "wellbeing": 4.4,
+   "inequality": 0.3836813508394975,
+   "ecological footprint": 1.21,
+   "hpi": 22.182279227978782
+ },
+ {
+   "ranking": 97,
+   "countries": "Tanzania",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 63.544,
+   "wellbeing": 4,
+   "inequality": 0.33287468564511724,
+   "ecological footprint": 1.32,
+   "hpi": 22.138379293936772
+ },
+ {
+   "ranking": 98,
+   "countries": "Malawi",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 60.122,
+   "wellbeing": 4.3,
+   "inequality": 0.44538135024194997,
+   "ecological footprint": 0.81,
+   "hpi": 22.130818438294174
+ },
+ {
+   "ranking": 99,
+   "countries": "Zimbabwe",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 53.673,
+   "wellbeing": 5,
+   "inequality": 0.36608460855100433,
+   "ecological footprint": 1.37,
+   "hpi": 22.112535398870584
+ },
+ {
+   "ranking": 100,
+   "countries": "Lebanon",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 78.797,
+   "wellbeing": 4.6,
+   "inequality": 0.1890678949030738,
+   "ecological footprint": 3.84,
+   "hpi": 21.897769325380793
+ },
+ {
+   "ranking": 101,
+   "countries": "Senegal",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 65.429,
+   "wellbeing": 3.7,
+   "inequality": 0.3281849565038694,
+   "ecological footprint": 1.21,
+   "hpi": 21.896045707219148
+ },
+ {
+   "ranking": 102,
+   "countries": "Belarus",
+   "regios": "Post-communist",
+   "life expectancy": 70.874,
+   "wellbeing": 5.7,
+   "inequality": 0.13190987750517025,
+   "ecological footprint": 5.09,
+   "hpi": 21.718916081617902
+ },
+ {
+   "ranking": 103,
+   "countries": "Namibia",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 64.014,
+   "wellbeing": 4.685714285714283,
+   "inequality": 0.26297913368833287,
+   "ecological footprint": 2.48,
+   "hpi": 21.569233730322814
+ },
+ {
+   "ranking": 104,
+   "countries": "Ghana",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 61.012,
+   "wellbeing": 5.1,
+   "inequality": 0.3756452030003017,
+   "ecological footprint": 1.97,
+   "hpi": 21.43466357444843
+ },
+ {
+   "ranking": 105,
+   "countries": "Australia",
+   "regios": "Asia Pacific",
+   "life expectancy": 82.052,
+   "wellbeing": 7.2,
+   "inequality": 0.08067824767105994,
+   "ecological footprint": 9.31,
+   "hpi": 21.228966308259448
+ },
+ {
+   "ranking": 106,
+   "countries": "Oman",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 76.3,
+   "wellbeing": 6.9,
+   "inequality": 0.13406474350208492,
+   "ecological footprint": 7.52,
+   "hpi": 21.13942635719868
+ },
+ {
+   "ranking": 107,
+   "countries": "Lithuania",
+   "regios": "Post-communist",
+   "life expectancy": 72.804,
+   "wellbeing": 5.8,
+   "inequality": 0.11270765888646578,
+   "ecological footprint": 5.83,
+   "hpi": 21.03656569885549
+ },
+ {
+   "ranking": 108,
+   "countries": "United States of America",
+   "regios": "Americas",
+   "life expectancy": 78.807,
+   "wellbeing": 7,
+   "inequality": 0.12956425637462532,
+   "ecological footprint": 8.22,
+   "hpi": 20.746377577545243
+ },
+ {
+   "ranking": 109,
+   "countries": "Bulgaria",
+   "regios": "Post-communist",
+   "life expectancy": 73.913,
+   "wellbeing": 4.2,
+   "inequality": 0.19283422250569082,
+   "ecological footprint": 3.32,
+   "hpi": 20.440789274271474
+ },
+ {
+   "ranking": 110,
+   "countries": "Afghanistan",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 59.668,
+   "wellbeing": 3.8,
+   "inequality": 0.426557441321005,
+   "ecological footprint": 0.79,
+   "hpi": 20.225349770957084
+ },
+ {
+   "ranking": 111,
+   "countries": "Rwanda",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 63.056,
+   "wellbeing": 3.3,
+   "inequality": 0.3720886737197467,
+   "ecological footprint": 0.87,
+   "hpi": 19.62837798317014
+ },
+ {
+   "ranking": 112,
+   "countries": "Uganda",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 57.14,
+   "wellbeing": 4.3,
+   "inequality": 0.41386181525074933,
+   "ecological footprint": 1.24,
+   "hpi": 19.419101693196378
+ },
+ {
+   "ranking": 113,
+   "countries": "Syria",
+   "regios": "Middle East and North Africa",
+   "life expectancy": 70.385,
+   "wellbeing": 3.2,
+   "inequality": 0.3038245051938609,
+   "ecological footprint": 1.51,
+   "hpi": 19.100370522371957
+ },
+ {
+   "ranking": 114,
+   "countries": "Kazakhstan",
+   "regios": "Post-communist",
+   "life expectancy": 68.606,
+   "wellbeing": 5.8,
+   "inequality": 0.178587883636883,
+   "ecological footprint": 5.55,
+   "hpi": 19.050434636178732
+ },
+ {
+   "ranking": 115,
+   "countries": "Republic of Congo",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 60.951,
+   "wellbeing": 3.9,
+   "inequality": 0.40058972300839063,
+   "ecological footprint": 1.29,
+   "hpi": 18.8127124351232
+ },
+ {
+   "ranking": 116,
+   "countries": "Russia",
+   "regios": "Post-communist",
+   "life expectancy": 69.519,
+   "wellbeing": 5.6,
+   "inequality": 0.15916383998781702,
+   "ecological footprint": 5.69,
+   "hpi": 18.71017811503093
+ },
+ {
+   "ranking": 117,
+   "countries": "Mauritania",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 62.602,
+   "wellbeing": 4.7,
+   "inequality": 0.36729924409389564,
+   "ecological footprint": 2.54,
+   "hpi": 17.998061394696155
+ },
+ {
+   "ranking": 118,
+   "countries": "Estonia",
+   "regios": "Post-communist",
+   "life expectancy": 76.2,
+   "wellbeing": 5.4,
+   "inequality": 0.12232526551435986,
+   "ecological footprint": 6.86,
+   "hpi": 17.89502178920171
+ },
+ {
+   "ranking": 119,
+   "countries": "Burkina Faso",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 57.955,
+   "wellbeing": 4,
+   "inequality": 0.43249261063247524,
+   "ecological footprint": 1.21,
+   "hpi": 17.886187937472513
+ },
+ {
+   "ranking": 120,
+   "countries": "Gabon",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 63.335,
+   "wellbeing": 4,
+   "inequality": 0.3621621243722718,
+   "ecological footprint": 2.02,
+   "hpi": 17.496847728791643
+ },
+ {
+   "ranking": 121,
+   "countries": "Latvia",
+   "regios": "Post-communist",
+   "life expectancy": 73.607,
+   "wellbeing": 5.1,
+   "inequality": 0.1410633086819662,
+   "ecological footprint": 6.29,
+   "hpi": 17.056728863774623
+ },
+ {
+   "ranking": 122,
+   "countries": "Niger",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 60.046,
+   "wellbeing": 3.8,
+   "inequality": 0.39760213505119346,
+   "ecological footprint": 1.56,
+   "hpi": 16.846564574026175
+ },
+ {
+   "ranking": 123,
+   "countries": "Hong Kong",
+   "regios": "Asia Pacific",
+   "life expectancy": 83.572,
+   "wellbeing": 5.5,
+   "inequality": 0.09953677755755674,
+   "ecological footprint": 8.82345,
+   "hpi": 16.799684968318704
+ },
+ {
+   "ranking": 124,
+   "countries": "Cameroon",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 54.61,
+   "wellbeing": 4.2,
+   "inequality": 0.47275156273534247,
+   "ecological footprint": 1.17,
+   "hpi": 16.698237171638215
+ },
+ {
+   "ranking": 125,
+   "countries": "Lesotho",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 48.947,
+   "wellbeing": 4.9,
+   "inequality": 0.42175790356225346,
+   "ecological footprint": 1.66,
+   "hpi": 16.665136394471023
+ },
+ {
+   "ranking": 126,
+   "countries": "Botswana",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 64.249,
+   "wellbeing": 4.8,
+   "inequality": 0.28391285295231716,
+   "ecological footprint": 3.83,
+   "hpi": 16.60508318606135
+ },
+ {
+   "ranking": 127,
+   "countries": "Djibouti",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 61.311,
+   "wellbeing": 4.4,
+   "inequality": 0.4165417195979653,
+   "ecological footprint": 2.19,
+   "hpi": 16.42836847003932
+ },
+ {
+   "ranking": 128,
+   "countries": "South Africa",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 56.285,
+   "wellbeing": 5.1,
+   "inequality": 0.33274002892766563,
+   "ecological footprint": 3.31,
+   "hpi": 15.868991671939174
+ },
+ {
+   "ranking": 129,
+   "countries": "Guinea",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 57.657,
+   "wellbeing": 3.7,
+   "inequality": 0.41895905312681325,
+   "ecological footprint": 1.41,
+   "hpi": 15.85358084852303
+ },
+ {
+   "ranking": 130,
+   "countries": "Trinidad and Tobago",
+   "regios": "Americas",
+   "life expectancy": 70.116,
+   "wellbeing": 6.4,
+   "inequality": 0.21384003926161554,
+   "ecological footprint": 7.92,
+   "hpi": 15.718346721557095
+ },
+ {
+   "ranking": 131,
+   "countries": "Burundi",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 55.803,
+   "wellbeing": 3.4333333333332803,
+   "inequality": 0.47742712023791783,
+   "ecological footprint": 0.8,
+   "hpi": 15.576158801048251
+ },
+ {
+   "ranking": 132,
+   "countries": "Swaziland",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 48.91,
+   "wellbeing": 4.9,
+   "inequality": 0.4104581212844579,
+   "ecological footprint": 2.01,
+   "hpi": 15.536035220949785
+ },
+ {
+   "ranking": 133,
+   "countries": "Sierra Leone",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 49.758,
+   "wellbeing": 4.5,
+   "inequality": 0.4986961448173316,
+   "ecological footprint": 1.24,
+   "hpi": 15.264649740643426
+ },
+ {
+   "ranking": 134,
+   "countries": "Turkmenistan",
+   "regios": "Post-communist",
+   "life expectancy": 65.298,
+   "wellbeing": 5.5,
+   "inequality": 0.31107377276567794,
+   "ecological footprint": 5.47,
+   "hpi": 14.608544238279485
+ },
+ {
+   "ranking": 135,
+   "countries": "Cote d'Ivoire",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 50.83,
+   "wellbeing": 3.8249999999999886,
+   "inequality": 0.4468447766769828,
+   "ecological footprint": 1.27,
+   "hpi": 14.438557469478425
+ },
+ {
+   "ranking": 136,
+   "countries": "Mongolia",
+   "regios": "Asia Pacific",
+   "life expectancy": 68.57,
+   "wellbeing": 4.9,
+   "inequality": 0.21908593831145265,
+   "ecological footprint": 6.08,
+   "hpi": 14.26947132605124
+ },
+ {
+   "ranking": 137,
+   "countries": "Benin",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 59.167,
+   "wellbeing": 3.2,
+   "inequality": 0.44411329150235457,
+   "ecological footprint": 1.41,
+   "hpi": 13.422364785112695
+ },
+ {
+   "ranking": 138,
+   "countries": "Togo",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 58.601,
+   "wellbeing": 2.86666666666666,
+   "inequality": 0.428742394080363,
+   "ecological footprint": 1.13,
+   "hpi": 13.233269200310191
+ },
+ {
+   "ranking": 139,
+   "countries": "Luxembourg",
+   "regios": "Europe",
+   "life expectancy": 81.111,
+   "wellbeing": 7,
+   "inequality": 0.06783736347860274,
+   "ecological footprint": 15.82,
+   "hpi": 13.151174195886261
+ },
+ {
+   "ranking": 140,
+   "countries": "Chad",
+   "regios": "Sub Saharan Africa",
+   "life expectancy": 50.808,
+   "wellbeing": 4,
+   "inequality": 0.5073423160211841,
+   "ecological footprint": 1.46,
+   "hpi": 12.777156207494
+ }
+]

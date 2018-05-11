@@ -1,0 +1,29 @@
+svg {
+  background: white;
+}
+
+.countries {
+  fill: #cccccc;
+  stroke: #333333;
+  stroke-width: 0.5;
+}
+
+#tip {
+  position: absolute;
+  background: #fff;
+  background: -webkit-linear-gradient(top, #fff, #ccc, #fff);
+  font-family: Verdana, sans-serif;
+  font-size: 10pt;
+  padding: 3pt;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border: thin solid #aaa;
+  border-radius: 6px;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+#tip.hidden {
+  display: none;
+}
