@@ -3,6 +3,11 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <title>interactive world map with bar chart</title>
   <link rel="stylesheet" type="text/css" href="maps.css">
   <script type="text/javascript" src="map.js"></script>
@@ -18,8 +23,36 @@
 
 </head>
 <body>
-  <div id="map"></div>
-  <div id="tip" class='hidden'></div>
+  <div id='text' class='deep'>
+    <h1>Happy Index in the world</h1>
+    <h4>
+      This data visualisation shows the happy index from countries all
+      over the world. If you hover over a country you can see the current
+      happy index of the concerning country. Every country is color coated based on its rank
+      in the world. The color green stands for high ranked and red for low ranked,
+       as seen in the legend. When you click on it, the bar chart to
+      right shows you the elements of which the happy index consists. Also the bars
+      in the bar chart are color coated according to rank of every element.
+
+    </h4>
+  </div>
+  <div class='container-fluid'>
+    <div class='row'>
+      <div id="map" class='col-sm-7'></div>
+      <div id='bar-chart' class='col-sm-4'></div>
+    </div>
+    <div id="tip" class='hidden'></div>
+    <div id='legend'></div>
+    <div id='name'>
+      <h5>
+        made by:
+      </h5><br>
+      <h6>
+        Joost Hintzen <br>
+        10434143
+      </h6>
+    </div>
+  </div>
 
 </body>
 </html>

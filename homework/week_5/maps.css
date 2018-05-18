@@ -1,7 +1,22 @@
-svg {
-  background: white;
+#svg {
+  background: #f5f5f5;
 }
 
+body {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+
+}
+
+.deep {
+  text-align: center;
+  color: #202020;
+  letter-spacing: .1em;
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+}
+
+#name {
+  text-align: center;
+}
 .countries {
   fill: #cccccc;
   stroke: #333333;
@@ -26,4 +41,32 @@ svg {
 
 #tip.hidden {
   display: none;
+}
+
+#bar-chart {
+
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  height: 500px;
+  width: 550px;
+}
+
+.bars {
+  fill: blue;
+
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+
+#text-legend {
+  font-weight: bold;
 }
