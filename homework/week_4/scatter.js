@@ -180,7 +180,7 @@ window.onload = function() {
     // change function to update the scatterplot for chosen input
     function change() {
       var value = this.value
-
+      
       // changing x domain
       x.domain([
         d3.min([0, d3.min(array, function(d) {return d[value][1[0]]})]),
