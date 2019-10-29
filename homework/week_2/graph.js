@@ -12,7 +12,6 @@ function load() {
   // splits the data into arrays at whitespaces
   let splitDatas = dataBilt.split('\n');
 
-
   var temps = [];
   var dates = [];
 
@@ -26,7 +25,6 @@ function load() {
     var datum = date.getTime();
     dates.push(datum);
   }
-
 
   function createTransform(domain, range) {
   	// domain is a two-element array of the data bounds [domain_min, domain_max]
@@ -69,8 +67,8 @@ function load() {
 
   // vars for drawing x and y-axis ticks and labels
   var text = -100;
-  var padding = 10;
-  var step = (1150/12);
+  var padding = 10; 
+  var step = ((xEnd-xBeginning)/12);
 
   // y-axis ticks and labels drawn
   for (var y = yBeginning; y >= yEnd; y -= step) {
@@ -94,7 +92,7 @@ function load() {
   for (var x = xBeginning; x <= xEnd; x += step) {
     // labels
     ctx.textAlign = "center";
-    ctx.fillText(months[i], x, (yBeginning + (2*padding)));
+    ctx.fillText(months[i], x, (yBeginning + (3*padding)));
     i++;
 
     // ticks
