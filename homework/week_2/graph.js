@@ -142,6 +142,6 @@ var textLoader = new XMLHttpRequest();
 // when graph.js is loaded
 textLoader.addEventListener("load", load);
 // get the data.txt out of GitHub
-textLoader.open("GET", "https://raw.githubusercontent.com/joosthintzen40/dataprocessing1/master/week_2/homework/data.txt");
+textLoader.open("GET", "https://raw.githubusercontent.com/joosthintzen40/dataprocessing1/master/homework/week_2/data.txt");
 // and send it to html
 textLoader.send();
