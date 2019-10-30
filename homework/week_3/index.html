@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <script type="text/javascript" src="d3.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Abel|Montserrat|Nanum+Gothic" rel="stylesheet">
   <style>
     .bars:hover {
       fill: orange;
@@ -24,28 +25,44 @@
       border-radius: 8px;
       pointer-events: none;
     }
+    body{
+      background: #eee;
+    }
+    .title{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      color: #FF5D33;
+      position: absolute;
+      right: 50px;
+    }
+    h3{
+      font-family: 'Abel';
+      color: #000;
+      font-size: 20px;
+      position: absolute;
+      right: 200px;
+      top: 60px;
+    }
+    p{
+      font-family: 'Nanum Gothic', sans-serif;
+      color:#000;
+      font-size: 15px;
+      position: absolute;
+    }
+        
   </style>
+  <title>Bar chart honeyproduction in the US</title>
 </head>
 <body>
+  <h1 class="title">Honey production chart 2012</h1>
+  <h3>Joost Hintzen</h3>
+  <h3>10434143</h3>
+  <p>This bar chart shows the total honey productioni produced in 20 different states in the 
+  USA. All the amounts are taken in the year 2012.</p>
+
   <script type="text/javascript">
 
-  // adding head title to html page
-  d3.select("head").append("title").text("bar chart honeyproduction in the US");
-
   // adding name, studentnumber and description of bar chart to body
-  d3.select("body").append("p")
-    .append("h3")
-    .text("Joost Hintzen");
-  d3.select("body").append("p")
-    .append("h3")
-    .text("10434143");
-  d3.select("body")
-    .append("div")
-    .text("This bar chart shows the total honey production produced in 20 \
-          different states in the USA. All the amounts are taken in the year 2012.")
-    .style( {
-      width: "500px"
-    })
 
   // vars for making bar chart
   var padding = 100;
