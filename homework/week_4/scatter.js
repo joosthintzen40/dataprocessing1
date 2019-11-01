@@ -58,7 +58,7 @@ window.onload = function() {
     // margins, height, width and padding
     var margin = { top: 100, right: 200, bottom: 100, left: 100 }
     var h = 1000 - margin.top - margin.bottom
-    var w = 1000 - margin.left - margin.right
+    var w = 1500 - margin.left - margin.right
     var padding = 100;
 
     var body = d3.select("body")
@@ -111,12 +111,10 @@ window.onload = function() {
 
     // title of scatterplot
     svg.append("text")
-        .attr("id", "title")
+        .attr("id", "title-graph")
         .attr("x", (w / 2))
         .attr("y", 0 - (margin.top / 2))
         .attr("text-anchor", "middle")
-        .style("font-size", "16px")
-        .style("text-decoration", "underline")
         .text("Full-time Employment vs. Part-time Employment");
 
     // calling x-axis plus label

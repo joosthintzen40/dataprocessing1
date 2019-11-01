@@ -9,4 +9,44 @@ body {
 
 #title {
   font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #FF5D33;
+  position: relative;
+  left: 200px;
+}
+#name {
+  width: 400px;
+  margin: 0;
+  font-family: 'Abel';
+  color: #000;
+  font-size: 20px;
+  position: relative;
+  left: 600px;
+}
+
+.btn-menu{
+    width: 100px;
+    height: 70px;
+    background: #67DA06;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    position: fixed;
+    color:#eee;
+    right: 50px;
+    top: 30px;
+    }
+.btn-menu:hover{
+background: #76F20E;
+}
+.btn-menu a:hover{
+  color:#eee;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color:#eee;
 }
