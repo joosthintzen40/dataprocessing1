@@ -65,7 +65,7 @@
       color:#eee;
       text-decoration: none;
     }
-    a {
+    #menu{
       width: 100px;
       height: 70px;
       position: absolute;
@@ -74,6 +74,19 @@
       text-decoration: none;
       color: #FBFBEF;
     } 
+  a {
+    text-decoration: none;
+    color:#eee;
+  }
+  #source-link{
+    color: #0E7BF2;
+    text-decoration: none;
+  }
+  /* #menu{
+    position: fixed;
+    right: 50px;
+    top: 30px;
+  } */
   #source{
     position: relative;
     top: 40px;

@@ -26,27 +26,40 @@ body {
 }
 
 .btn-menu{
+  width: 100px;
+  height: 70px;
+  background: #67DA06;
+  font-size: 16px;
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  position: fixed;
+  color:#eee;
+  right: 50px;
+  top: 30px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  }
+  .btn-menu:hover{
+  background: #76F20E;
+  }
+  .btn-menu a:hover{
+    color:#eee;
+    text-decoration: none;
+  }
+  #menu{
     width: 100px;
     height: 70px;
-    background: #67DA06;
-    font-size: 16px;
-    font-family: 'Abel', sans-serif;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    position: fixed;
-    color:#eee;
-    right: 50px;
-    top: 30px;
-    }
-.btn-menu:hover{
-background: #76F20E;
-}
-.btn-menu a:hover{
-  color:#eee;
-  text-decoration: none;
-}
-a {
+    position: absolute;
+    top: 14px;
+    right: 0.8px;
+    text-decoration: none;
+    color: #FBFBEF;
+  } 
+
+#link{
   text-decoration: none;
   color:#eee;
 }
